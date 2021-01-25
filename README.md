@@ -17,9 +17,6 @@ ex: 127.0.0.1 mycompany.test. Also make sure that you especify that in the vhost
 
 *configure a vhosts in windows 10   https://www.cloudways.com/blog/configure-virtual-host-on-windows-10-for-wordpress/*
 
-- go to the xampp control panel and start up the apache, then visit the website. Don't forget that apache looks for a .php starting point file - include that in the application
-
-
 *if you want to run the php scripts from the command prompt or terminal, be sure to set the .exe file in the environment varible PATH.*
 
 2. In the xampp control panel click "start" for Apache and Mysql. Go to Mysql admin and create a new database called "magebit_test". Inside this database create a table called "emails". Create two columns inside the table: first column with a name "id" and type iNT, set it to autoincrement, second column with the name "email" and type text.
