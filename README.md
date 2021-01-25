@@ -1,7 +1,7 @@
 # Newsletter
 A HTML, CSS, JavaScript, PHP and Mysql project, that represents an example of subscription to a newsletter. The emails are validated in JavaScript and PHP before submittion. All submitted emails can be seen on a separate page, where the results can be sorted and filtered. It is also possible to delete emails from database and search for emails.
 
-## To run the project
+## To run the project locally
 
 1. You should have PHP and Mysql installed on your computer. If you don't have you can:
 install XAMPP - cross platform web server solution package, meaning it can run in any environment, be it Windows, Linux or MAC OS.
