@@ -277,20 +277,34 @@ i {
 @media only screen and (max-width: 768px) {
     .content-container {
         position: relative;
-        padding: 40px;
+        padding: 20px;
         background-color: $background;
         overflow: hidden;
-        margin: 200px 40px;
+        margin: 200px auto;
         z-index: -3;
+        width: 0;
+        display:block;
+        width: 80%;
+        h3 {
+            font-size: 24px;
+        }
+
+        p, a {
+            font-size: 14px;
+        }
     }
 
+    .icon {
+        margin-right: 10px;
+    }
     .text-input-wrapper {
         width: 100%;
         margin-left: 0;
     }
 
     .text-input {
-        width: 75%;
+        width: 80%;
+        font-size: 16px;
     }
 
     .left-side {
@@ -324,7 +338,7 @@ i {
 
     .logo {
         margin-left: 30px;
-        width: 40%;
+        width: 20%;
     }
 }
 
@@ -333,8 +347,18 @@ i {
         background-image: url(../img/image_summer.jpg);
         background-size: cover;
         background-position: -380px;
-
+        align-items: center;
+        flex: 1 1 100%;
+        a {
+            font-size: 14px;
+        }
     }
+}
+
+@media only screen and (max-width: 600px){
+    .text-input {
+        padding-left: 10px;
+    } 
 }
 
 .message,
